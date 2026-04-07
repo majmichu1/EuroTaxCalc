@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tax Calculator - DO NOT COMMIT THESE!
+*.db
+*.json
+*.log
+assets/
+PIT-38_*.xml
+PIT-38_*.html
+raport_*.pdf
+raport_*.xlsx
+backup_*.json
+crypto_prices_cache.json
+nbp_rates_cache.json
+disclaimer_accepted.txt
+settings.json
+tax_history.db
+
+# Internal AI assistant files — never publish
+CLAUDE.md
+QWEN.md
+GITHUB_CHECKLIST.md
+*.md.bak
+legacy/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
